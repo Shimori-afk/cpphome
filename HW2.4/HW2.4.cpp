@@ -1,6 +1,6 @@
 #include <iostream>
 
-enum class Mounth
+enum class Week
 {
 	Monday = 1,
 	Tuesday = 2,
@@ -14,25 +14,25 @@ enum class Mounth
 
 int main()
 {
-	Mounth Mon = Mounth::Monday;
+	Week Mon = Week::Monday;
 	std::cout << int(Mon) << std::endl;
 
-	Mounth Tues = Mounth::Tuesday;
+	Week Tues = Week::Tuesday;
 	std::cout << int(Tues) << std::endl;
 
-	Mounth Wed = Mounth::Wednesday;
+	Week Wed = Week::Wednesday;
 	std::cout << int(Wed) << std::endl;
 
-	Mounth Thur = Mounth::Thursday;
+	Week Thur = Week::Thursday;
 	std::cout << int(Thur) << std::endl;
 
-	Mounth Fri = Mounth::Friday;
+	Week Fri = Week::Friday;
 	std::cout << int(Fri) << std::endl;
 
-	Mounth Satu = Mounth::Saturday;
+	Week Satu = Week::Saturday;
 	std::cout << int(Satu) << std::endl;
 
-	Mounth Sun = Mounth::Sunday;
+	Week Sun = Week::Sunday;
 	std::cout << int(Sun) << std::endl;
 
 
