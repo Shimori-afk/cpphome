@@ -1,40 +1,61 @@
 #include <iostream>
 
+enum class Month {
+	January = 1,
+	February,
+	March,
+	April,
+	May,
+	June,
+	July,
+	August,
+	September,
+	October,
+	November,
+	December
+};
+
 int main() {
-    int month;
+	int monthNumber;
 
-    std::cout << "Enter number of month: ";
-    std::cin >> month;
+	std::cout << "Enter number of month: ";
+	std::cin >> monthNumber;
 
-    std::string season;
+	Month month = static_cast<Month>(monthNumber);
 
-    switch (month) {
-    case 1:
-    case 2:
-    case 12:
-        season = "Winter";
-        break;
-    case 3:
-    case 4:
-    case 5:
-        season = "Spring";
-        break;
-    case 6:
-    case 7:
-    case 8:
-        season = "Summer";
-        break;
-    case 9:
-    case 10:
-    case 11:
-        season = "Autumn";
-        break;
-    default:
-        season = "Unknown number of month";
-        break;
-    }
+	std::string season;
 
-    std::cout << season << std::endl;
+	switch (month) {
+	case Month::December:
+	case Month::January:
+	case Month::February:
+		season = "Winter";
+		break;
 
-    return 0;
+	case Month::March:
+	case Month::April:
+	case Month::May:
+		season = "Spring";
+		break;
+
+	case Month::June:
+	case Month::July:
+	case Month::August:
+		season = "Summer";
+		break;
+
+	case Month::September:
+	case Month::October:
+	case Month::November:
+		season = "Autumn";
+		break;
+
+	default:
+		season = "Unknown number of month";
+		break;
+	}
+
+	std::cout << season << std::endl;
+
+	return 0;
 }
