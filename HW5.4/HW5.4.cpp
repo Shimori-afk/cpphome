@@ -12,7 +12,7 @@ int main()
 
 	switch (loop)
 	{
-	case 1: 
+	case 1:
 	{
 		for (int i = 0; i < n; ++i)
 		{
@@ -27,7 +27,7 @@ int main()
 		}
 		break;
 	}
-	case 2: 
+	case 2:
 	{
 		for (int i = 0; i < n; ++i)
 		{
@@ -48,7 +48,7 @@ int main()
 		{
 			for (int j = 0; j < n; ++j)
 			{
-					std::cout << a;
+				std::cout << a;
 			}
 			std::cout << std::endl;
 		}
@@ -66,7 +66,6 @@ int main()
 		}
 		break;
 	}
-
 	default:
 		std::cout << "Invalid variable!" << std::endl;
 	}
