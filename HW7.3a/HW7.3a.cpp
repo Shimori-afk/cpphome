@@ -8,4 +8,7 @@ int main()
 	std::cin >> count;
 
 	printNaturalNumbers(count);
+
+	printNaturalNumbers1(count);
+
 }
