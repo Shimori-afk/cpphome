@@ -19,11 +19,11 @@ int count_Numbers(int count)
 		{
 			++c_positive;
 		}
-		if (temp == 0)
+		else if (temp == 0)
 		{
 			++c_zero;
 		}
-		if (temp < 0)
+		else
 		{
 			++c_negative;
 		}

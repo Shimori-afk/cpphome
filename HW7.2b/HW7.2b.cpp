@@ -3,11 +3,12 @@
 int main()
 {
 	int count;
-
 	std::cout << "Enter a number: ";
 	std::cin >> count;
 
-	int factorial = facotrialLoop(count);
+	int factorialR = factorialRecursive(count);
+	std::cout << count << "! = " << factorialR << std::endl;
 
-	std::cout << count << "! = " << factorial << std::endl;
+	int factorialL = factorialLoop(count);
+	std::cout << count << "! = " << factorialL << std::endl;
 }
