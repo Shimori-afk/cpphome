@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 enum class SortingDirection 
 { 
