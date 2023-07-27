@@ -1,6 +1,10 @@
 #include <iostream>
 
-enum class SortingDirection { ByRows, ByColumn };
+enum class SortingDirection 
+{ 
+	ByRows,
+	ByColumn 
+};
 
 const int COLUMN = 5; 
 
