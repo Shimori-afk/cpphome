@@ -22,7 +22,6 @@ bool isSorted(const int* arr, int size, SortingDirection direction)
 			}
 		}
 	}
-
 	else if (direction == SortingDirection::descending)
 	{
 		for (int i = 0; i < size - 1; ++i)
@@ -33,10 +32,6 @@ bool isSorted(const int* arr, int size, SortingDirection direction)
 			}
 
 		}
-	}
-	else
-	{
-		return false;
 	}
 
 	return true;
