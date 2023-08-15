@@ -15,7 +15,7 @@ void ColsSearch(int array[][4], int rows, int cols)
 
 void RowsSearch(int array[][4], int rows, int cols)
 {
-    for (int i = 0; i < rows; ++i)
+    for (int i = rows - 1; i >= 0; --i)
     {
         for (int j = cols - 1; j >= 0; --j)
         {
@@ -40,7 +40,7 @@ int main()
 
     std::cout << std::endl;
 
-    std::cout << "RowsSearch:" << std::endl;
+    std::cout << "RowsSearch (Bottom to Top):" << std::endl;
     RowsSearch(array2d, rows, cols);
 
     return 0;
