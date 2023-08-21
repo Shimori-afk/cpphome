@@ -18,12 +18,12 @@ public:
         count++;
     }
 
-    float getArea() 
+    const float getArea() 
     {
         return height * length;
     }
 
-    float getPerimeter() 
+    const float getPerimeter() 
     {
         return 2 * (height + length);
     }
