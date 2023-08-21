@@ -11,13 +11,13 @@ public:
 
     Rectangle(float lenght, float height) : lenght(lenght), height(height){}
 
-    float getArea() 
+   const float getArea() 
     {
         return height * lenght;
       
     }
 
-    float getPerimeter() 
+    const float getPerimeter() 
     {
         return 2 * (height + lenght);
 
