@@ -47,8 +47,6 @@ public:
     }
 
     friend std::ostream& operator<<(std::ostream& os, const Vector2d& vec);
-
-    // Оператор вводу вектора з консолі
     friend std::istream& operator>>(std::istream& is, Vector2d& vec);
 };
 
