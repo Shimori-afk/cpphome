@@ -10,7 +10,8 @@ struct Student
 float calculateAverage(Student student)
 {
     float sum = 0;
-    for (int i = 0; i < 4; ++i)
+    int marksIdx = 4;
+    for (int i = 0; i < marksIdx; ++i)
     {
         sum += student.marks[i];
     }
