@@ -22,10 +22,12 @@ public:
         return 2 * (height + lenght);
 
     }
+    
     void printArea()
     {
         std::cout << " Area = " << getArea() << std::endl;
     }
+
     void printPerimeter()
     {
         std::cout << " Perimetr = " << getPerimeter() << std::endl;

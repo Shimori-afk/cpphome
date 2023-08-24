@@ -43,7 +43,8 @@ public:
 		{
             std::cout << name << "'s Weapon:\n";
             std::cout << " - " << weapon -> getName() << " (Damage: " << weapon -> getDamage() << ", Range: " << weapon -> getRange() << ")\n";
-        } else
+        }
+         else
 		{
             std::cout << name << " has no weapon.\n";
         }

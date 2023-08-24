@@ -26,11 +26,13 @@ public:
         players = new Player*[maxPlayers];
     }
 
-    ~Team() {
+    ~Team() 
+    {
         delete[] players;
     }
 
-    const std::string& getName() const {
+    const std::string& getName() const 
+    {
         return name;
     }
 
