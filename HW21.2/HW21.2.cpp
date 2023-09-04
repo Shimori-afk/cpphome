@@ -3,7 +3,7 @@
 #include <algorithm>
 
 //sortByFunc
-bool compareByLength(std::string& str1, std::string str2)
+const bool compareByLength(std::string& str1, std::string str2)
 {
 	return str1.size() < str2.size();
 
@@ -13,7 +13,7 @@ bool compareByLength(std::string& str1, std::string str2)
 class LengthComparator
 {
 public:
-	bool operator()(const std::string& str1, std::string& str2)
+	const bool operator()(const std::string& str1, std::string& str2)
 	{
 		return str1.size() < str2.size();
 	}
