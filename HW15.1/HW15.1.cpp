@@ -18,22 +18,22 @@ public:
         count++;
     }
 
-    const float getArea() 
+     float getArea() const
     {
         return height * length;
     }
 
-    const float getPerimeter() 
+     float getPerimeter() const
     {
         return 2 * (height + length);
     }
 
-    void printArea()
+    void printArea() const
     {
         std::cout << "Area = " << getArea() << std::endl;
     }
 
-    void printPerimeter()
+    void printPerimeter() const
     {
         std::cout << "Perimeter = " << getPerimeter() << std::endl;
     }
