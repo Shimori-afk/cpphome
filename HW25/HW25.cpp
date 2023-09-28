@@ -3,6 +3,7 @@
 int main()
 {
     Vector2d testVec{ 1.2, 5.6 };
+
     std::cout << testVec << std::endl;
 
     Vector2d vec1{ 3.0, 4.0 };
