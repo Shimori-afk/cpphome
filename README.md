@@ -1,6 +1,6 @@
 # NARUTO 2D Score Game
 
-![Game Screenshot](C:\C--\game\game_screenshot.png)
+![Game Screenshot](C:\C--\cpphome\screenshots\game_screenshot.png)
 
 This is the documentation for the NARUTO 2D Score Game, developed in C++ using the SFML library and built in the Visual Studio 2022 environment.
 The game will update in the future!
@@ -24,8 +24,8 @@ The game will update in the future!
 
 ## Gameplay
 
-Use the arrow keys to control Naruto's movements.
-Use the keys 'Z', 'X' to throwing kunaies.
+- Use the arrow keys to control Naruto's movements.
+- Use the keys 'Z', 'X' to throwing kunaies.
 
 ## Some about game
 
@@ -34,7 +34,7 @@ In the NARUTO 2D Score Game, player control the character Naruto, who moves on t
 
 ## Future Plans
 
-We have exciting plans for the future of NARUTO 2D Score Game, including:
+I have exciting plans for the future of NARUTO 2D Score Game, including:
 
 - Adding new levels and challenges
 - Implementing multiplayer support
@@ -46,9 +46,14 @@ We have exciting plans for the future of NARUTO 2D Score Game, including:
 - Add spells for characters and enemies
 - Enhancing graphics and animations
 
+## Acknowledgments
+- Special thanks to Maksym "Shimori" Leonovych for his work on the project.
+- Thanks to the SFML community for their support and resources.
+
+
 ## License
 
-This project is distributed under the [MIT License](LICENSE).
+This project is distributed under the [LNU License](LICENSE).
 
 ---
 
