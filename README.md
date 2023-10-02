@@ -1,6 +1,6 @@
 # NARUTO 2D Score Game
 
-![Game Screenshot](C:\C--\cpphome\screenshots\game_screenshot.png)
+![Game Screenshot](https://github.com/Shimori-afk/cpphome/blob/main/screenshots/game_screenshot.png)
 
 This is the documentation for the NARUTO 2D Score Game, developed in C++ using the SFML library and built in the Visual Studio 2022 environment.
 The game will update in the future!
