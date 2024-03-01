@@ -1,0 +1,19 @@
+﻿  Enemy.cpp
+  MainMenu.cpp
+C:\C--\cpphome\NARUTO_SCORE_GAME\MainMenu.cpp(65,21): warning C4553: '==': result of expression not used; did you intend '='?
+C:\C--\cpphome\NARUTO_SCORE_GAME\MainMenu.cpp(81,21): warning C4553: '==': result of expression not used; did you intend '='?
+  Weapon.cpp
+  main.cpp
+C:\C--\cpphome\NARUTO_SCORE_GAME\main.cpp(21,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\C--\cpphome\NARUTO_SCORE_GAME\main.cpp(21,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Player.cpp
+  Generating Code...
+  NARUTO_SCORE_GAME.vcxproj -> C:\C--\cpphome\NARUTO_SCORE_GAME\x64\Debug\NARUTO_SCORE_GAME.exe
